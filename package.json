@@ -1,0 +1,28 @@
+{
+  "name": "node_learnings",
+  "version": "1.0.0",
+  "description": "This repo is used to showcase my practice and implementations for nodeJS learnings.",
+  "homepage": "https://github.com/hani-codal/NodeJS_Practice#readme",
+  "bugs": {
+    "url": "https://github.com/hani-codal/NodeJS_Practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hani-codal/NodeJS_Practice.git"
+  },
+  "license": "ISC",
+  "author": "hani joshi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.1.0"
+  }
+}
