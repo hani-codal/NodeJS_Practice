@@ -1,28 +1,23 @@
 {
-  "name": "node_learnings",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "This repo is used to showcase my practice and implementations for nodeJS learnings.",
-  "homepage": "https://github.com/hani-codal/NodeJS_Practice#readme",
-  "bugs": {
-    "url": "https://github.com/hani-codal/NodeJS_Practice/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hani-codal/NodeJS_Practice.git"
-  },
-  "license": "ISC",
-  "author": "hani joshi",
-  "type": "commonjs",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "body-parser": "^2.2.1",
-    "express": "^5.1.0"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
   }
 }
